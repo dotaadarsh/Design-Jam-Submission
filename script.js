@@ -1,4 +1,3 @@
-// https://github.com/VoloshchenkoAl/revealer
 document.addEventListener('DOMContentLoaded', () => {
   const revealerNav = window.revealer({
     revealElementSelector: '.nav-js',
