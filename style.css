@@ -5,7 +5,10 @@
 body {
   margin: 0;
   padding: 40px 30px;
-  background-image: url("https://steamuserimages-a.akamaihd.net/ugc/968725324229023059/2A3E985DA84B714344384917BE2BA0D607EEC8DF/");
+  background-image: url("https://i.pinimg.com/originals/22/30/57/2230578b83d597e586324d32f52acdc1.gif");
+  background-position: center;
+  background-repeat: no-repeat; 
+  background-size: cover; 
   font-family: 'Brush Script MT', cursive;
   font-size: 1rem;
   line-height: 1.2;
@@ -36,7 +39,7 @@ header {
   width: 50px;
   height: 50px;
   border-radius: 50%;
-  background-image: url("https://image.flaticon.com/icons/png/128/1041/1041345.png");
+  background: #000;
   border: 0;
   cursor: pointer;
   position: absolute;
@@ -48,7 +51,7 @@ header {
 }
 
 .header__button[data-open='true'] {
-  background-color: hsl(52, 100%, 50%);
+  background-color: #fff;
   animation-name: scale;
 }
 
